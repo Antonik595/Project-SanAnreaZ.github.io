@@ -1,0 +1,173 @@
+body{
+	background-color: #1A1A1C;
+}
+
+.body-off{
+	overflow: hidden;
+}
+
+a{
+	display: inline-block;
+	border-bottom: solid 2px #C3083F;
+	width: inherit;	
+}
+
+a:hover{
+	color: #C3083F;
+}
+
+a:active{
+	background: #C3083F;
+	color: white;
+}
+
+h1,h2,h3,h4,p{
+	margin: 5px 0;
+	padding: 0;
+}
+
+h1,h2,h3,h4{
+	text-transform: uppercase;
+	color: rgb(255,255,255);
+	margin-top: 10px;
+}
+
+h1{
+	font-size: 42px;
+	line-height: 58px;
+}
+
+h2{
+	font-size: 34px;
+	line-height: 46px;
+}
+
+h3{
+	font-size: 27px;
+	line-height: 34px;
+}
+
+h4{
+	font-size: 20px;
+	line-height: 28px;
+}
+
+p{
+	color: rgb(240,240,240);
+
+	font-size: 16px;
+	line-height: 22px;
+}
+
+span{
+	font-size: 16px;
+	line-height: 22px;
+	color: rgb(170,170,170);
+}
+
+ul{
+	background-color: #C3083F;
+	border-radius: 2px;
+	padding: 10px;
+	margin: 10px 0;
+	list-style: none;
+}
+
+ul li{
+	color: white;
+	font-weight: 500;
+	fonts-size: 16px;
+}
+
+.page img{
+	border-radius: 2px;
+	margin: 10px 0;
+}
+
+/* PAGE */
+
+.page-flex{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.page{
+	position: absolute;
+	top: 60px;
+	padding: 0 10px;
+
+	border-radius: 2px;
+
+	word-break: break-word;
+
+	max-width: 700px;
+	background: rgb(35,35,35);
+	width: 100%;
+}
+
+.page p{
+	margin: 10px 0;
+}
+
+.page .block:first-child{
+	display: block;
+}
+
+.page .block{
+	display: none;
+}
+
+/* COMMAND BLOCK */
+
+.com{
+	display: flex;
+	padding: 5px;
+	background-color: #1A1A1C;
+	border-radius: 2px;
+	margin-bottom: 10px;
+}
+
+.com h4{
+	margin-top: 0;
+}
+
+.com section:first-child{
+	margin-right: 10px;
+}
+
+.com img{
+	min-width: 100px;
+	height: 125px;
+}
+
+/* TABLE */
+table{
+	width: 100%;
+	border-radius: 2px;
+	color: white;
+}
+
+table tr{
+	border-radius: 2px;
+	background-color: #C3083F;
+}
+
+table tr:first-child{
+	color: black;
+	background-color: #C9999F;
+}
+
+table tr td{
+	padding: 5px;
+}
+
+/* CODE + PRE */
+code pre{
+	border-radius: 2px;
+	margin: 10px 0;
+	padding: 5px;
+	color: white;
+	background: #C3083F;
+}
+
